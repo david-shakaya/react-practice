@@ -19,15 +19,15 @@ const App = () => {
             <h1>Главный компонент-контейнер страницы</h1>
             <ProductCart
                 src={obj.url}
-                alt="Feathers. Art abstract"
+                alt={obj.title}
                 title={obj.title}
                 price={obj.price}
             />
             <ProductCart
-            src={obj.url}
-                alt="Feathers. Art abstract"
-                title={obj.title}
-                price={obj.price}
+            src="https://cdn.pixabay.com/photo/2017/09/04/22/40/flowers-2715804_1280.jpg"
+                alt="Product N-2"
+                title="Product N-2"
+                price={304}
             />
         </div>
     )
