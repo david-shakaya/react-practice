@@ -19,7 +19,7 @@ const App = () => {
                 quantity={paintings[0].quantity}
             />
             <ProductCart
-            src="https://cdn.pixabay.com/photo/2017/09/04/22/40/flowers-2715804_1280.jpg"
+            // src="https://cdn.pixabay.com/photo/2017/09/04/22/40/flowers-2715804_1280.jpg"
                 alt="Product N-2"
                 title="Product N-2"
                 price={304}

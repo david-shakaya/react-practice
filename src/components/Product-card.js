@@ -11,5 +11,8 @@ const ProductCart = (props) => (
   <button type="button">Добавить в корзину</button> 
   </div>
 )
-
+// Значение по умолчанию. Если не загрузилась картинка то используем эту
+ProductCart.defaultProps = {
+  src: "https://www.hot-motor.ru/body/clothes/images/no_icon.png"
+}
 export default ProductCart
